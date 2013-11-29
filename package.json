@@ -1,0 +1,34 @@
+{
+    "name": "RESTful API",
+    "description": "RESTful API  - A Modern Stack: MongoDB, ExpressJS, NodeJS.",
+    "version": "1.0.0",
+    "private": false,
+    "author": "Tran Quang Khanh wondersofttech@gmail.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wondersofttech/Simple-RESTful-API-VI.git"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "start": "node node_modules/grunt-cli/bin/grunt",
+        "test": "node node_modules/grunt-cli/bin/grunt test",
+        "postinstall": "node node_modules/grunt-cli/bin/grunt install"
+    },
+    "dependencies": {
+        "express": "latest",
+        "mongoose": "latest",
+		"path": "latest"
+    },
+    "devDependencies": {
+        "supertest": "latest",
+        "should": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-nodemon": "latest",
+        "grunt-concurrent": "latest",
+        "grunt-mocha-test": "latest"
+    }
+}
